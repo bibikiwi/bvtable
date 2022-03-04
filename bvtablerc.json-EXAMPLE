@@ -1,0 +1,40 @@
+{
+	"apikey": "<bitvavo api key (RO)>",
+	"apisecret": "<bitvavo api key secret>",
+
+	"defaultprofile" : "conky",
+
+	"profiles" : {
+                "conky": {
+                                "border"        : "unicode",
+                                "color"         : "conky",
+                                "mode"          : "conky"
+                        },
+                "brol": {
+                                "color"         : "none",
+                                "border"        : "vkh",
+                                "symbols"       : "simple",
+                                "mode"          : "text"
+                        }
+		},
+
+	"fieldorder" : [
+                "symbol",
+                "daily_low",
+                "daily_low_historic",
+                "daily_high",
+                "daily_high_historic",
+                "last",
+                "last_low_historic",
+                "last_high_historic",
+                "change_24h",
+                "value",
+                "paid",
+                "gain",
+                "wallet",
+                "symbol",
+                "trend24h"
+                ]
+
+
+}
