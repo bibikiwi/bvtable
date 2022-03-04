@@ -10,13 +10,21 @@ You can put a settings file in any of the following paths :
 ```
 ~/.bvtablerc.json
 ./bvtablerc.json
-
 ```
 
 or provide it on the command line with the -f options
 
 It should contain at least an API key for bitvavo.
+
 This app does not do any transactions, so the safest is to use a view-only key here.
+
+An example can be found in the examples folder
+
+```
+cp examples/bvtablerc.json-EXAMPLE ~/.bvtablerc.json
+```
+
+add your keys
 
 ```
 {
@@ -57,6 +65,7 @@ with conky colors and font headers
 ```
 ./bvtable.py -b unicode -c conky -m conky -b unicode
 ```
+an example conkyrc file can be found in the examples folder
 
 ![alt text](https://github.com/bibikiwi/bvtable/blob/main/doc/004-conky.png?raw=true)
 	
