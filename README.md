@@ -35,15 +35,14 @@ simple output for terminals that can do nothing
 ./bvtable.py
 ```
 
-![alt text](https://github.com/bibikiwi/bvtable/blob/master/001-simple.png?raw=true)
-
+![alt text](https://github.com/bibikiwi/bvtable/blob/main/doc/001-simple.png?raw=true)
 
 square brackets instead of borders
 ```
 ./bvtable.py -b vhk
 ```
 
-![alt text](https://github.com/bibikiwi/bvtable/blob/master/002-square.png?raw=true)
+![alt text](https://github.com/bibikiwi/bvtable/blob/main/doc/002-square.png?raw=true)
 
 
 full ansii color output with utf8 symbols and unicode borders
@@ -51,7 +50,7 @@ full ansii color output with utf8 symbols and unicode borders
 ./bvtable.py -b unicode -s utf8 -c ansii
 ```
 
-![alt text](https://github.com/bibikiwi/bvtable/blob/master/003-coloransiutf8.png?raw=true)
+![alt text](https://github.com/bibikiwi/bvtable/blob/main/doc/003-coloransiutf8.png?raw=true)
 
 
 with conky colors and font headers
@@ -59,5 +58,5 @@ with conky colors and font headers
 ./bvtable.py -b unicode -c conky -m conky -b unicode
 ```
 
-![alt text](https://github.com/bibikiwi/bvtable/blob/master/004-conky.png?raw=true)
+![alt text](https://github.com/bibikiwi/bvtable/blob/main/doc/004-conky.png?raw=true)
 	
