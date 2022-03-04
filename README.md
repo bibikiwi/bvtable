@@ -3,6 +3,12 @@
 Table format overview of your crypto assets in bitvavo.
 With output format for ascii, ansi color, unicode chars, conky colors, etc...
 
+# Requirements
+
+```
+pip install python-bitvavo-api
+```
+
 # settings file
 
 You can put a settings file in any of the following paths :
