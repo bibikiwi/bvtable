@@ -7,6 +7,7 @@ With output format for ascii, ansi color, unicode chars, conky colors, etc...
 
 ```
 pip install python-bitvavo-api
+pip install pytz
 ```
 
 # settings file

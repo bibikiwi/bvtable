@@ -1,0 +1,64 @@
+conky.config = {
+    background = true,
+    update_interval = 1.5,
+    cpu_avg_samples = 2,
+    net_avg_samples = 2,
+    out_to_console = false,
+    override_utf8_locale = true,
+    double_buffer = true,
+    no_buffers = true,
+    text_buffer_size = 32768,
+    imlib_cache_size = 0,
+
+    own_window = true,
+    own_window_type = 'desktop',
+    own_window_argb_visual = true,
+    own_window_argb_value = 128,
+    own_window_transparent = false,
+    own_window_hints = 'undecorated,below,skip_taskbar,skip_pager',
+    own_window_colour = '#000008',
+
+    border_inner_margin = 20,
+    border_outer_margin = 3,
+    xinerama_head = 0,
+    alignment = 'top_right',
+    gap_x = 90,
+    gap_y = 100,
+    draw_shades = false,
+    draw_outline = false,
+    draw_borders = true,
+    draw_graph_borders = true,
+    use_xft = true,
+    font = 'Ubuntu Mono:size=24',
+    xftalpha = 0.9,
+    uppercase = false,
+    default_color = '#000088',
+    minimum_width = 0,
+    minimum_height = 0,
+    maximum_width = 0,
+
+    default_bar_width = 250,
+    default_bar_height = 16,
+
+    color1 = '#00FF00',
+    color2 = '#597AA1',
+    color3 = '#FFFF00',
+    color4 = '#CC0000',
+    color5 = '#88A500',
+    color6 = '#666666',
+    color7 = '#863557',
+    color8 = '#FFFFFF'
+
+};
+
+conky.text = [[${execpi 180 /path/to/bvtable.py -b unicode -c conky -m conky -b unicode -o gain }]];
+
+
+
+
+
+
+
+
+
+
