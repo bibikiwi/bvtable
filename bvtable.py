@@ -584,7 +584,8 @@ def main():
       change = float(marketdata['last']) - float(marketdata['open'])
       chgval = change / float(marketdata['open']) * 100
       cryptovalue = float(marketdata['last'])*float(available)
-      gain = ((cryptovalue - paid) / paid) * 100
+
+      gain = ((((cryptovalue - paid) / paid) * 100) if paid else 0)
 
       #writedata(trades,f"{ market }.trades")			#debug
       #writedata(candles,f"{ market }.1y.candles")		#debug
